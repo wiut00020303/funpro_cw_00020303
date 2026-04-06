@@ -1,0 +1,291 @@
+{
+  "title": "Cognitive Load Assessment Survey",
+  "description": "This survey assesses the degree to which your mind is cluttered with excessive information and minor tasks, based on Cognitive Load Theory (Krieglstein et al., 2022).",
+  "source": "Inspired by: Krieglstein, F., Beege, M., Rey, G. D., Ginns, P., Krell, M., & Schneider, S. (2022). A systematic meta-analysis of the reliability and validity of subjective cognitive load questionnaires in experimental multimedia learning research. Educational Psychology Review, 34, 2485–2541. https://doi.org/10.1007/s10648-022-09683-4",
+  "questions": [
+    {
+      "id": 1,
+      "type": "intrinsic",
+      "text": "How mentally demanding do you find it to keep track of all your current responsibilities at once?",
+      "options": [
+        {"label": "Not demanding at all — everything feels manageable", "score": 0},
+        {"label": "Slightly demanding", "score": 1},
+        {"label": "Moderately demanding", "score": 2},
+        {"label": "Very demanding — it takes significant effort", "score": 3},
+        {"label": "Extremely demanding — I feel overwhelmed", "score": 4}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "extraneous",
+      "text": "How much do interruptions (calls, messages, noise) disrupt your ability to think clearly during the day?",
+      "options": [
+        {"label": "Not at all — I filter them out easily", "score": 0},
+        {"label": "Slightly — minor disruption only", "score": 1},
+        {"label": "Moderately — I lose my train of thought", "score": 2},
+        {"label": "Significantly — it takes time to refocus", "score": 3},
+        {"label": "Completely — interruptions constantly derail me", "score": 4}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "intrinsic",
+      "text": "How complex does it feel to mentally juggle unfinished tasks alongside new incoming ones?",
+      "options": [
+        {"label": "Not complex — I handle it naturally", "score": 0},
+        {"label": "Slightly complex", "score": 1},
+        {"label": "Moderately complex", "score": 2},
+        {"label": "Very complex — it requires real effort", "score": 3},
+        {"label": "Extremely complex — I cannot manage it", "score": 4}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "extraneous",
+      "text": "How often does switching between different apps, platforms, or tools during work increase your mental confusion?",
+      "options": [
+        {"label": "Never — switching feels seamless", "score": 0},
+        {"label": "Occasionally", "score": 1},
+        {"label": "Fairly often", "score": 2},
+        {"label": "Most of the time", "score": 3},
+        {"label": "Always — it significantly fragments my thinking", "score": 4}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "germane",
+      "text": "When you learn something new, how much mental effort do you invest in connecting it to what you already know?",
+      "options": [
+        {"label": "A great deal — I actively build connections", "score": 0},
+        {"label": "Quite a bit", "score": 1},
+        {"label": "Some effort", "score": 2},
+        {"label": "Very little effort", "score": 3},
+        {"label": "None — I absorb information passively without connecting it", "score": 4}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "intrinsic",
+      "text": "How difficult is it for you to hold multiple pieces of important information in mind without writing them down?",
+      "options": [
+        {"label": "Not difficult — I retain information easily", "score": 0},
+        {"label": "Slightly difficult", "score": 1},
+        {"label": "Moderately difficult", "score": 2},
+        {"label": "Very difficult — I frequently lose track", "score": 3},
+        {"label": "Extremely difficult — I rely heavily on external reminders", "score": 4}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "extraneous",
+      "text": "How much does a disorganised physical or digital workspace increase the effort required to complete tasks?",
+      "options": [
+        {"label": "Not at all — environment does not affect me", "score": 0},
+        {"label": "Slightly", "score": 1},
+        {"label": "Noticeably — I waste time searching or refocusing", "score": 2},
+        {"label": "Significantly — it causes regular frustration", "score": 3},
+        {"label": "Enormously — I cannot function in disorder", "score": 4}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "germane",
+      "text": "After completing a difficult task, how often do you reflect on what you have learned from it?",
+      "options": [
+        {"label": "Almost always — reflection is a habit", "score": 0},
+        {"label": "Often", "score": 1},
+        {"label": "Sometimes", "score": 2},
+        {"label": "Rarely", "score": 3},
+        {"label": "Almost never — I move straight to the next task", "score": 4}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "intrinsic",
+      "text": "How much mental effort does it take to understand complex instructions or multi-step directions at first read?",
+      "options": [
+        {"label": "Very little — I grasp them immediately", "score": 0},
+        {"label": "Some effort — I read carefully once", "score": 1},
+        {"label": "Moderate effort — I reread parts", "score": 2},
+        {"label": "Considerable effort — I need several readings", "score": 3},
+        {"label": "Enormous effort — complex instructions overwhelm me", "score": 4}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "extraneous",
+      "text": "How often do redundant or contradictory pieces of information (e.g., conflicting advice online) increase your mental fatigue?",
+      "options": [
+        {"label": "Almost never — I identify what is relevant quickly", "score": 0},
+        {"label": "Occasionally", "score": 1},
+        {"label": "Fairly often", "score": 2},
+        {"label": "Most of the time", "score": 3},
+        {"label": "Always — conflicting information leaves me mentally drained", "score": 4}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "germane",
+      "text": "When tackling a familiar type of problem, how automatically do you apply previously learned strategies?",
+      "options": [
+        {"label": "Very automatically — prior strategies come naturally", "score": 0},
+        {"label": "Mostly automatically with minor thought", "score": 1},
+        {"label": "Partially — I still need to consciously recall steps", "score": 2},
+        {"label": "With difficulty — strategies feel distant", "score": 3},
+        {"label": "Not at all — I approach every problem from scratch", "score": 4}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "intrinsic",
+      "text": "How effortful is it for you to mentally organise a large amount of incoming information into a coherent picture?",
+      "options": [
+        {"label": "Not effortful — I structure information intuitively", "score": 0},
+        {"label": "Slightly effortful", "score": 1},
+        {"label": "Moderately effortful", "score": 2},
+        {"label": "Very effortful — structuring information drains me", "score": 3},
+        {"label": "Extremely effortful — I feel lost in information", "score": 4}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "extraneous",
+      "text": "How much does receiving too many notifications throughout the day interfere with your ability to think deeply?",
+      "options": [
+        {"label": "Not at all — I have full control over notifications", "score": 0},
+        {"label": "Slightly", "score": 1},
+        {"label": "Noticeably — deep thinking becomes harder", "score": 2},
+        {"label": "Significantly — sustained focus feels impossible", "score": 3},
+        {"label": "Completely — notifications constantly fracture my concentration", "score": 4}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "germane",
+      "text": "How often do you actively try to simplify or reorganise information to make it easier to remember?",
+      "options": [
+        {"label": "Very often — simplification is part of how I think", "score": 0},
+        {"label": "Often", "score": 1},
+        {"label": "Sometimes", "score": 2},
+        {"label": "Rarely", "score": 3},
+        {"label": "Almost never — I store information as I receive it", "score": 4}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "intrinsic",
+      "text": "How much mental effort is required for you to switch your focus between two very different topics in a short time?",
+      "options": [
+        {"label": "Very little — I switch contexts fluidly", "score": 0},
+        {"label": "Some effort", "score": 1},
+        {"label": "Moderate effort — I need a moment to adjust", "score": 2},
+        {"label": "Considerable effort — switching is mentally costly", "score": 3},
+        {"label": "Enormous effort — context switching exhausts me", "score": 4}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "extraneous",
+      "text": "How often does the volume of daily information (news, emails, social media) make it harder to focus on what truly matters?",
+      "options": [
+        {"label": "Almost never — I filter information effectively", "score": 0},
+        {"label": "Occasionally", "score": 1},
+        {"label": "Fairly often", "score": 2},
+        {"label": "Most days", "score": 3},
+        {"label": "Every day — information overload is constant", "score": 4}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "germane",
+      "text": "How well do you feel you understand the underlying logic of tasks you work on, rather than just following steps mechanically?",
+      "options": [
+        {"label": "Very well — I always seek to understand the 'why'", "score": 0},
+        {"label": "Mostly well", "score": 1},
+        {"label": "Partially — sometimes I just follow steps", "score": 2},
+        {"label": "Rarely — I mostly follow procedures without deeper understanding", "score": 3},
+        {"label": "Almost never — I focus only on completing steps", "score": 4}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "intrinsic",
+      "text": "How demanding do you find it to keep a clear overview of a project that involves many interdependent steps?",
+      "options": [
+        {"label": "Not demanding — I maintain a clear mental map", "score": 0},
+        {"label": "Slightly demanding", "score": 1},
+        {"label": "Moderately demanding", "score": 2},
+        {"label": "Very demanding — details blur together", "score": 3},
+        {"label": "Extremely demanding — I lose the overview completely", "score": 4}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "extraneous",
+      "text": "How much does poorly presented or cluttered information (e.g., messy reports, chaotic emails) increase your mental effort?",
+      "options": [
+        {"label": "Not at all — I extract what I need regardless", "score": 0},
+        {"label": "Slightly", "score": 1},
+        {"label": "Noticeably — poor presentation slows me down", "score": 2},
+        {"label": "Significantly — it causes real frustration", "score": 3},
+        {"label": "Enormously — cluttered information paralyses me", "score": 4}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "germane",
+      "text": "How often do you notice yourself developing better mental strategies or shortcuts after repeated exposure to similar tasks?",
+      "options": [
+        {"label": "Very often — I constantly refine my approach", "score": 0},
+        {"label": "Often", "score": 1},
+        {"label": "Sometimes", "score": 2},
+        {"label": "Rarely", "score": 3},
+        {"label": "Almost never — each similar task still feels equally hard", "score": 4}
+      ]
+    }
+  ],
+  "scoring": [
+    {
+      "min": 0,
+      "max": 15,
+      "state": "Minimal Cognitive Load",
+      "description": "Your working memory operates with excellent efficiency. Information is processed and organised with ease. No intervention required."
+    },
+    {
+      "min": 16,
+      "max": 30,
+      "state": "Low Cognitive Load",
+      "description": "You experience mild mental clutter. Simple habits such as task lists and brief digital detoxes will help maintain your clarity."
+    },
+    {
+      "min": 31,
+      "max": 45,
+      "state": "Moderate Cognitive Load",
+      "description": "Noticeable cognitive burden is beginning to affect your focus and memory. Structured information management and regular mental breaks are recommended."
+    },
+    {
+      "min": 46,
+      "max": 55,
+      "state": "High Cognitive Load",
+      "description": "Your working memory is significantly strained by excessive information and tasks. Deliberate workload reduction and mindfulness practices are strongly advised."
+    },
+    {
+      "min": 56,
+      "max": 65,
+      "state": "Severe Cognitive Load",
+      "description": "You are carrying an unsustainable cognitive burden. Professional guidance in cognitive and stress management is recommended."
+    },
+    {
+      "min": 66,
+      "max": 75,
+      "state": "Critical Cognitive Load",
+      "description": "Your cognitive resources are critically depleted. Immediate lifestyle changes and support from a psychologist or counsellor are urgently needed."
+    },
+    {
+      "min": 76,
+      "max": 80,
+      "state": "Cognitive Overload Crisis",
+      "description": "You are experiencing a cognitive crisis. Please seek immediate support from a qualified mental health professional."
+    }
+  ]
+}
