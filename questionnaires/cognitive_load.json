@@ -1,0 +1,235 @@
+{
+  "title": "Cognitive Load Assessment",
+  "description": "This survey measures the degree to which your mind is cluttered with excessive information and unfinished tasks.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "How many unfinished tasks are currently occupying your thoughts?",
+      "options": [
+        {"label": "None, my mind is clear", "score": 0},
+        {"label": "1–2 minor tasks", "score": 1},
+        {"label": "3–5 tasks of varying importance", "score": 2},
+        {"label": "6–10 tasks", "score": 3},
+        {"label": "More than 10, I have lost count", "score": 4}
+      ]
+    },
+    {
+      "id": 2,
+      "text": "When you sit down to focus on one thing, how quickly do unrelated thoughts intrude?",
+      "options": [
+        {"label": "They rarely intrude; I stay focused", "score": 0},
+        {"label": "After 30+ minutes", "score": 1},
+        {"label": "Within 10–30 minutes", "score": 2},
+        {"label": "Within a few minutes", "score": 3},
+        {"label": "Almost immediately, I cannot stay on track", "score": 4}
+      ]
+    },
+    {
+      "id": 3,
+      "text": "How often do you forget where you placed everyday objects (keys, phone, etc.)?",
+      "options": [
+        {"label": "Almost never", "score": 0},
+        {"label": "Once or twice a week", "score": 1},
+        {"label": "Several times a week", "score": 2},
+        {"label": "Daily", "score": 3},
+        {"label": "Multiple times a day", "score": 4}
+      ]
+    },
+    {
+      "id": 4,
+      "text": "How would you describe the number of open browser tabs or apps you typically keep running?",
+      "options": [
+        {"label": "I keep only what I need at the moment", "score": 0},
+        {"label": "A handful (up to 5)", "score": 1},
+        {"label": "Quite a few (6–15)", "score": 2},
+        {"label": "Many (16–30)", "score": 3},
+        {"label": "I lose count; dozens are always open", "score": 4}
+      ]
+    },
+    {
+      "id": 5,
+      "text": "How often do you start a new task before finishing the previous one?",
+      "options": [
+        {"label": "Rarely — I complete tasks one by one", "score": 0},
+        {"label": "Occasionally when genuinely necessary", "score": 1},
+        {"label": "Sometimes, without a clear reason", "score": 2},
+        {"label": "Often, juggling several at once", "score": 3},
+        {"label": "Almost always, I rarely finish anything fully", "score": 4}
+      ]
+    },
+    {
+      "id": 6,
+      "text": "How do you feel when you receive a new notification (message, email, alert)?",
+      "options": [
+        {"label": "Calm — I check it when convenient", "score": 0},
+        {"label": "Slightly curious but not distracted", "score": 1},
+        {"label": "I feel compelled to check it soon", "score": 2},
+        {"label": "I feel anxious until I check it", "score": 3},
+        {"label": "I check it immediately no matter what I am doing", "score": 4}
+      ]
+    },
+    {
+      "id": 7,
+      "text": "How well can you recall details from a conversation you had earlier today?",
+      "options": [
+        {"label": "Very well — I remember most details", "score": 0},
+        {"label": "Fairly well with minor gaps", "score": 1},
+        {"label": "Only the main points, details are blurry", "score": 2},
+        {"label": "Vaguely — I struggle to reconstruct it", "score": 3},
+        {"label": "Barely at all — I frequently lose track", "score": 4}
+      ]
+    },
+    {
+      "id": 8,
+      "text": "How often do you re-read the same line or paragraph because your mind wandered?",
+      "options": [
+        {"label": "Rarely", "score": 0},
+        {"label": "Once in a while", "score": 1},
+        {"label": "Fairly often", "score": 2},
+        {"label": "Most of the time", "score": 3},
+        {"label": "Nearly always when reading", "score": 4}
+      ]
+    },
+    {
+      "id": 9,
+      "text": "How often do you feel mentally drained even after light activities (browsing, chatting)?",
+      "options": [
+        {"label": "Almost never", "score": 0},
+        {"label": "Occasionally at end of day", "score": 1},
+        {"label": "Fairly often during the day", "score": 2},
+        {"label": "Most days by mid-afternoon", "score": 3},
+        {"label": "Almost constantly throughout the day", "score": 4}
+      ]
+    },
+    {
+      "id": 10,
+      "text": "How difficult is it for you to make simple everyday decisions (what to eat, what to watch)?",
+      "options": [
+        {"label": "Easy — I decide quickly", "score": 0},
+        {"label": "Occasionally I pause to think", "score": 1},
+        {"label": "I often feel indecisive", "score": 2},
+        {"label": "Even small decisions feel tiring", "score": 3},
+        {"label": "I feel paralysed and frequently ask others to decide for me", "score": 4}
+      ]
+    },
+    {
+      "id": 11,
+      "text": "How often do you feel the urge to check social media or news even when you planned not to?",
+      "options": [
+        {"label": "Rarely or never", "score": 0},
+        {"label": "Once or twice a day", "score": 1},
+        {"label": "Several times a day", "score": 2},
+        {"label": "Many times throughout the day", "score": 3},
+        {"label": "Almost constantly, it feels compulsive", "score": 4}
+      ]
+    },
+    {
+      "id": 12,
+      "text": "When you try to relax, how successfully can you mentally switch off from work or responsibilities?",
+      "options": [
+        {"label": "Very successfully — I disconnect fully", "score": 0},
+        {"label": "Mostly, with occasional lingering thoughts", "score": 1},
+        {"label": "Partially, thoughts keep resurfacing", "score": 2},
+        {"label": "With great difficulty", "score": 3},
+        {"label": "I cannot switch off at all", "score": 4}
+      ]
+    },
+    {
+      "id": 13,
+      "text": "How often do you write something down (note, reminder) only to forget what you wrote and why?",
+      "options": [
+        {"label": "Rarely — my notes stay meaningful", "score": 0},
+        {"label": "Occasionally", "score": 1},
+        {"label": "Sometimes", "score": 2},
+        {"label": "Frequently", "score": 3},
+        {"label": "Almost always — my notes feel chaotic", "score": 4}
+      ]
+    },
+    {
+      "id": 14,
+      "text": "How often do you find yourself in a room and unable to remember why you went there?",
+      "options": [
+        {"label": "Almost never", "score": 0},
+        {"label": "Once in a while", "score": 1},
+        {"label": "A few times a week", "score": 2},
+        {"label": "Daily", "score": 3},
+        {"label": "Multiple times each day", "score": 4}
+      ]
+    },
+    {
+      "id": 15,
+      "text": "How would you rate the overall clarity of your mind at the end of a typical day?",
+      "options": [
+        {"label": "Very clear — I feel refreshed and organized", "score": 0},
+        {"label": "Mostly clear with slight mental tiredness", "score": 1},
+        {"label": "Foggy — hard to think straight", "score": 2},
+        {"label": "Very foggy and overwhelmed", "score": 3},
+        {"label": "Completely cluttered — I feel mentally exhausted", "score": 4}
+      ]
+    },
+    {
+      "id": 16,
+      "text": "How often do you feel that the amount of information you consume daily is too much to process?",
+      "options": [
+        {"label": "Never — I handle information well", "score": 0},
+        {"label": "Occasionally", "score": 1},
+        {"label": "Fairly often", "score": 2},
+        {"label": "Most days", "score": 3},
+        {"label": "Every day, it feels overwhelming", "score": 4}
+      ]
+    },
+    {
+      "id": 17,
+      "text": "How well do you prioritise tasks when multiple things demand your attention simultaneously?",
+      "options": [
+        {"label": "Very well — I create a clear order", "score": 0},
+        {"label": "Fairly well with minor hesitation", "score": 1},
+        {"label": "I struggle but manage eventually", "score": 2},
+        {"label": "I find it very difficult and often freeze", "score": 3},
+        {"label": "I cannot prioritise — everything feels equally urgent", "score": 4}
+      ]
+    },
+    {
+      "id": 18,
+      "text": "How often do you experience a mental 'blank' mid-sentence, forgetting the word or idea you were about to say?",
+      "options": [
+        {"label": "Rarely or never", "score": 0},
+        {"label": "Once in a while", "score": 1},
+        {"label": "Several times a week", "score": 2},
+        {"label": "Daily", "score": 3},
+        {"label": "Many times throughout the day", "score": 4}
+      ]
+    },
+    {
+      "id": 19,
+      "text": "How does your mental state feel after spending an hour scrolling through online content?",
+      "options": [
+        {"label": "Refreshed and satisfied", "score": 0},
+        {"label": "Neutral — neither better nor worse", "score": 1},
+        {"label": "Slightly more scattered", "score": 2},
+        {"label": "Noticeably more cluttered and restless", "score": 3},
+        {"label": "Drained, overwhelmed, and unable to focus", "score": 4}
+      ]
+    },
+    {
+      "id": 20,
+      "text": "How often do you feel that your brain has too many 'tabs open' — thoughts competing for attention?",
+      "options": [
+        {"label": "Almost never — my mind feels orderly", "score": 0},
+        {"label": "Occasionally during busy periods", "score": 1},
+        {"label": "Fairly regularly", "score": 2},
+        {"label": "Most of the time", "score": 3},
+        {"label": "Constantly — it never feels quiet", "score": 4}
+      ]
+    }
+  ],
+  "scoring": [
+    {"min": 0,  "max": 15, "state": "Minimal Cognitive Load",    "description": "Your mind is clear and well-organised. You process information efficiently and maintain excellent mental clarity. No intervention needed."},
+    {"min": 16, "max": 30, "state": "Low Cognitive Load",        "description": "You experience mild mental clutter. Occasional digital detox and task-list habits will keep you at your best."},
+    {"min": 31, "max": 45, "state": "Moderate Cognitive Load",   "description": "Noticeable mental clutter is affecting your focus. Consider structured note-taking, priority lists, and regular information breaks."},
+    {"min": 46, "max": 55, "state": "High Cognitive Load",       "description": "Your brain is significantly overloaded. Deliberate digital minimalism, mindfulness practices, and workload restructuring are strongly advised."},
+    {"min": 56, "max": 65, "state": "Severe Cognitive Load",     "description": "You are carrying an excessive cognitive burden. Professional guidance in stress and information management is recommended."},
+    {"min": 66, "max": 75, "state": "Critical Cognitive Load",   "description": "Your cognitive resources are critically depleted. Immediate lifestyle changes and professional psychological support are urgently needed."},
+    {"min": 76, "max": 80, "state": "Cognitive Overload Crisis", "description": "You are in a state of cognitive crisis. Please seek immediate support from a mental health professional or counsellor."}
+  ]
+}
